@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+		 <head>
+					  <title>Donut Whole | Vegan Donut Shoppe</title>
+						<meta name="description"  content="Donut Whole is a fictional vegan Donut shop
+						in South of Delhi">
+
+						<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Open+Sans:300i,400,700" rel="stylesheet">
+
+						<link href="css/styles.css" rel="stylesheet">
+
+						<!--Normalize to clean up and standardize the browser default style
+						https://necolas.github.io/normalize.css/latest/normalize.css  (we dont have to put padding and margin "0" in the starting as we used to do
+						, instead we can use this normalize script to standardize our html file)-- >
+						<link href="css/normalize.css" rel="stylesheet">
+
+						<!--Modernizr allows HTML5 to work in older browsers: http://modernizr.com/-->
+						<script src="js/modernizr.js"></script>
+		 </head>
+		 <body>
+			 		 <div class="container"><!--for the first time we are using class for container,not id because
+						  we are gonna use container later also in this html file and we cannot use it if it is an id-->
+			 		 			<header>
+										<nav>
+												<ul>
+													  <li><a href="">Location</a></li>
+												  	<li><a href="">Menu</a></li>
+
+														<li><a href="" id="logo">Donut Whole</a></li>
+
+													  <li><a href="">Recipes</a></li>
+												    <li><a href="">Contact Us</a></li>
+												</ul>
+										</nav>
+								</header>
+			 		 </div>
+
+					 <div id="hero"><!--below we are using container again but we have put the container in another id element
+					 because we want to do some changes outside  the container like background spilling (refer the site for visualization)-->
+								 <div class="container">
+									 		<img src="images/donut-shoppe.png" alt="Donut Whole Storefront" >
+											<p class="large-ribbon">Fresh Whole Ingredients</p>
+								 </div>
+				  </div>
+
+					<div class="container">
+									<div id="whole-story"   class="clearfix">
+
+													<h1>The <em>Whole</em> Story</h1>
+													<p class="lead">We want to show the world what a <strong>real</strong> donut taste like!</p>
+
+													<div id="story-excerpt">
+																<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+																	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+																	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+																	Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+																	<a href="">Read more about your story here !</a></p>
+													</div>
+
+													<div id="best-donut">
+																<h3>Best Donut in California</h3>
+																<p>Well look at that we were voter no.1 donut show in Califonia in 2016</p>
+													</div>
+							  	</div><!--end of whole story-->
+
+									<hr><!--horizontal rule(draws the horizontal line)-->
+
+									<div id="news-events" class="clearfix">
+										     <h2>News , Events &amp; Such</h2>
+
+												 <div id="articles" >
+													 	 		<article class="news" id="article-1">
+														 	 					<header>
+																						<h3>Dairy Free Donuts</h3>
+																						<time datetime="2019-01-19">19th january 2019</time>
+																				</header>
+
+																				<section class="excerpt">
+																						<p>Echaban mudable ya apocado el ha ocurrio. Gesto puedo al galan me. Senoritas maniatico he va inclinaba parientes.
+																							Limpios no alcalde varonil en. Sin resbalar politica buscarlo son estetica.
+																							 Acabara mi lo lejanos apetito su. Quiero dinero esa alamos habana vivian caidas eso mas fin.
+																							 <a href="">Read more &rarr;</a> </p>
+																				</section>
+
+																				<footer>
+																						Posted under <a href="">news</a>
+																				</footer>
+													 	 		</article><!--end of article-1 tag-->
+
+																<article class="events" id="article-2">
+																				<header>
+																						<h3>Vegan Donut Shop</h3>
+																						<time datetime="2019-01-25">25th january 2019</time>
+																				</header>
+
+																				<section class="excerpt">
+																						<p>Echaban mudable ya apocado el ha ocurrio. Gesto puedo al galan me. Senoritas maniatico he va inclinaba parientes.
+																							Limpios no alcalde varonil en. Sin resbalar politica buscarlo son estetica.
+																							 Acabara mi lo lejanos apetito su. Quiero dinero esa alamos habana vivian caidas eso mas fin.
+																							 <a href="">Read more &rarr;</a> </p>
+																				</section>
+
+																				<footer>
+																						Posted under <a href="">events</a>
+																				</footer>
+																</article><!--end of article-1 tag-->
+												 </div><!--end of "div" having id "articles"-->
+
+												 <div id="feature-image" class="clearfix"><!--clearfix should work when used for id "news-events"
+												 but it is not working here so i used clearfix for "feature-image" (it is the element after which we are gonna use another element)-->
+												 			 <img src="images/assorted-donuts.png" alt="Tasty assorted donuts">
+												 </div><!--end of feature image-->
+
+							  </div><!--end of news events-->
+								<hr>
+
+          </div><!--end of container-->
+
+					<footer class="main" >
+
+							<div class="container  clearfix">
+											<div id="uncopyright">
+														<p>Uncopyright &copy; 2019 <strong>AK Rai</strong></p>
+														<p>Please recycle this code responsibly</p>
+											</div><!--end uncopyright-->
+
+											<div id="credits">
+														<p>Sustainablity coded with love by <a href="http://google.com">AK Rai</a></p>
+											</div><!--end credits-->
+							</div><!--end footer-->
+
+					</footer>
+		 </body>
+</html>
